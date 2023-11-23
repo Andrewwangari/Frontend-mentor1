@@ -1,65 +1,75 @@
-* {
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
-}
- 
-body {
-
-    min-height: 100vh; 
-    display: grid;
-    place-items: center;
+    font-family: 'Outfit', sans-serif;
+    line-height: 1;
+    background-color: hsl(219, 49%, 79%);
+   
 }
 
-
-.box2 {
-    border: 1px solid hsl(212, 35%, 85%);
-    width: 1500px;
-    height: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: hsl(220, 69%, 85%);;
-}
-
-.box3 {
-    /* padding: auto; */
-    padding: 15px;
-   /* border: 1px solid hsl(212, 35%, 85%); */
-    border-radius: 10px;
-   /* width: 300px; */
-    max-width: 300px;
-   /* height: 500px;*/
-    background-color: hsl(0, 0%, 100%);
-    
-    
-}
 
 img {
-    
-    width: 100%;
-    border-radius: 5%;
-    /*padding: 10px; */
-}
-
-
-p {
-    /* padding: 20px; */
-    padding: 10px;
+    width: 275px;
+    border-radius: 20px;
+    display: inline-block;
     text-align: center;
-    font-family: 'Outfit', sans-serif;
-}
-
-.para2 {
-    font-size: 14px;
-    color: hsl(210, 4%, 53%)
+    margin: 3px auto;
+    padding: 3%;
 
 }
-.para1 {
 
-    font-weight: bold;
-    font-size: 20px;
+.card {
+    margin: 250px auto;
+    border-radius: 15px;
+}
+
+.card-body > p {
+    text-align: center;
+    
+}
+
+p:first-of-type {
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+p:nth-of-type(even) {
+   font-size: 0.938rem;
+   color: hsl(213, 5%, 65%);
+}
 
 
- }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    margin-top: ;
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+
+
+.attribution a { 
+
+    color: hsl(228, 45%, 44%); 
+
+}
